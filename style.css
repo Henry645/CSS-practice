@@ -1,0 +1,18 @@
+body {
+    margin: 20;
+    padding: 20;
+    font-size: 30px;
+    box-sizing: border-box;
+}
+
+.p1 {
+    background-color: yellow;
+    border: 10 green;
+    border-style: solid;
+}
+
+.p2 {
+    background-color: aquamarine;
+    border: 10 purple;
+    border-style: solid;
+}
