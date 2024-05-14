@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+div {
+    color: goldenrod;
+    background-color: greenyellow;
+    font-size: 30px;
+
+}
+
+.div1 {
+    height: 300;
+    width: 200;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+.div2 {
+    height: 300;
+    width: 200;
+    padding: 0;
+
+    box-sizing: content-box;
+}

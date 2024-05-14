@@ -5,13 +5,13 @@ body {
     box-sizing: border-box;
 }
 
-.p1 {
+.div1 {
     background-color: yellow;
     border: 10 green;
     border-style: solid;
 }
 
-.p2 {
+.div2 {
     background-color: aquamarine;
     border: 10 purple;
     border-style: solid;
