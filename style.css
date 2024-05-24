@@ -1,18 +1,11 @@
-body {
-    margin: 20;
-    padding: 20;
-    font-size: 30px;
-    box-sizing: border-box;
+.flex-container {
+    /* display: flex; */
 }
-
-.div1 {
-    background-color: yellow;
-    border: 10 green;
-    border-style: solid;
-}
-
-.div2 {
-    background-color: aquamarine;
-    border: 10 purple;
-    border-style: solid;
+  
+  /* this selector selects all divs inside of .flex-container */
+.flex-container div {
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 100px;
+    flex: 1;
 }
