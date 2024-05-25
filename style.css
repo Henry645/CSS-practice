@@ -1,5 +1,5 @@
 .flex-container {
-    /* display: flex; */
+    display: flex;
 }
   
   /* this selector selects all divs inside of .flex-container */
@@ -8,4 +8,8 @@
     border: 4px solid brown;
     height: 100px;
     flex: 1;
+}
+
+.flex-container .two {
+  flex: 1 3 auto;
 }
