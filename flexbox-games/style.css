@@ -1,3 +1,5 @@
+/* First flexbox with the header for Walonus */
+
 .header {
     display: flex;
     gap: 10px;
@@ -20,13 +22,25 @@
     margin-right: auto;
 }
 
+/* Second flexbox with the intro */
+
 .intro {
     display: flex;
+    /* flex-direction: column; */
+    /* justify-content: space-evenly; */
+    justify-content: center;
+    /* justify-content: flex-start; */
+    align-items: center;
+    flex-wrap: wrap;
     gap: 10px;
     border: 2px solid rgb(155, 49, 49);
     padding: 3px;
     border-radius: 5px;
-    margin-top: 30px;
+    margin: 30px auto 0 auto;
+    padding: 10px;
+    height: 100px;
+    width: 400px;
+
 }
 
 .intro div {
@@ -34,4 +48,29 @@
     padding: 3px;
     border-radius: 5px;
     font-size: larger;
+    width: 180px;
+    height: 20px;
+    text-align: center;
+}
+
+/* Individual intro elements */
+
+.intro .We {
+    align-self: flex-start;
+    /* flex-basis: 800px; */
+    /* flex-grow: 1; */
+}
+
+.intro .Provide {
+    /* flex-shrink: 0; */
+    align-self: flex-end;
+}
+
+.intro .Dark {
+
+}
+
+.intro .Magic {
+    /* align-self: flex-end; */
+    /* flex-grow: 1; */
 }
