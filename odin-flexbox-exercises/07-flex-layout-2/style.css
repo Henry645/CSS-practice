@@ -7,9 +7,12 @@ body {
 }
 
 .header {
-  height: 72px;
+  /* height: 72px; */
   background: darkmagenta;
   color: white;
+  font-weight: 900;
+  font-size: 32px;
+  padding: 16px;
 }
 
 .main {
@@ -21,16 +24,51 @@ body {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+/* 
+div .footer-text {
+  justify-content: center;
+  align-self: ;
+} */
 
 .sidebar {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  flex-shrink: 0;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  width: 300px;
+  margin: 15px;
+  padding: 15px;
+}
+
+.cards {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  margin: 15px;
 }
